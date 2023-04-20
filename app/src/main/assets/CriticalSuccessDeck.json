@@ -1,0 +1,1106 @@
+{
+  "type": "Sucesso Crítico",
+  "effectsType": [
+    "Bomba ou magia",
+    "Contusão",
+    "Cortante",
+    "Perfurante"
+  ],
+  "effects": [
+    {
+      "type": "Contusão",
+      "title": "Dedão esmagado",
+      "effect": "Dano normal. O alvo fica desajeitado 2 e sofre -3 metros de penalidade na Velocidade em terra dele. Ambos os efeitos duram até ele ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Crânio esmagado",
+      "criticalEffect": "O alvo fica estupefato 3 até ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Golpe cambaleante",
+      "criticalEffect": "O alvo fica atordoado 2."
+    },
+    {
+      "type": "Contusão",
+      "title": "Golpe trovejante",
+      "criticalEffect": "O alvo fica surdo até ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Golpe baixo",
+      "criticalEffect": "O alvo fica enjoado 2 e lento 1 enquanto permanecer enjoado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Ressaibo no escudo",
+      "criticalEffect": "O alvo deve obter sucesso em um salvamento de Reflexos ou larga um escudo que está segurando."
+    },
+    {
+      "type": "Contusão",
+      "title": "Impelir",
+      "criticalEffect": "O alvo é empurrado 1d4 x 1,5 metros para trás."
+    },
+    {
+      "type": "Contusão",
+      "title": "Meuf dentefs!",
+      "effect": "O alvo deve obter sucesso em um teste simples CD 5 para conjurar Magias com componente verbal até ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Golpe que esmaga a alma",
+      "criticalEffect": "O alvo fica condenado 1 e estupefato 1 enquanto estiver condenado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Perna quebrada",
+      "criticalEffect": "O alvo sofre -4,5 metros de penalidade de estado na Velocidade em terra dele até ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Amassar armadura",
+      "effect": "Dano normal",
+      "criticalEffect": "Cause a mesma quantidade de dano à armadura do alvo, ignorando a Dureza dela."
+    },
+    {
+      "type": "Contusão",
+      "title": "Sem ar",
+      "effect": "O alvo fica fatigado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Concussão",
+      "effect": "Dano normal. O alvo fica confuso por 1 minuto e estupefato 2 até ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Golpe amassante",
+      "effect": "O alvo fica prostrado."
+    },
+    {
+      "type": "Contusão",
+      "title": "E fique no chão!",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica prostrado e atordoado 2."
+    },
+    {
+      "type": "Contusão",
+      "title": "Dois por um",
+      "criticalEffect": "Causa dano normal a um alvo adjacente ao alvo original."
+    },
+    {
+      "type": "Contusão",
+      "title": "Golpe entorpecente",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica desajeitado 1 por 1 minuto e deve obter sucesso em um salvamento de Reflexos ou larga um item que está segurando aleatoriamente."
+    },
+    {
+      "type": "Contusão",
+      "title": "Mão despedaçada",
+      "effect": "Dano normal. Até ser curado, o alvo fica desajeitado 2 e enfraquecido 2 e não pode usar uma das mãos dele (determinada aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Contusão",
+      "title": "Eu vejo estrelas",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica ofuscado até ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Nariz quebrado",
+      "effect": "O alvo sofre 1d4 de dano persistente de sangramento."
+    },
+    {
+      "type": "Contusão",
+      "title": "Estrondo na terra",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo e cada inimigo adjacente a ele devem obter sucesso em um salvamento de Reflexos ou ficam prostrados."
+    },
+    {
+      "type": "Contusão",
+      "title": "Quebrar as costas",
+      "criticalEffect": "Até ser curado, o alvo fica desajeitado 2 e enfraquecido 2."
+    },
+    {
+      "type": "Contusão",
+      "title": "Esmagar o pé",
+      "effect": "O alvo fica desprevenido até o final do próximo turno dele."
+    },
+    {
+      "type": "Contusão",
+      "title": "Golpe fatigante",
+      "effect": "O alvo fica fatigado"
+    },
+    {
+      "type": "Contusão",
+      "title": "Golpe sólido",
+      "effect": "Triplo de dano."
+    },
+    {
+      "type": "Contusão",
+      "title": "Pancada na canela",
+      "criticalEffect": "Até ser curado, o alvo fica desajeitado 1 e sofre -3 metros de penalidade de estado na Velocidade em terra dele."
+    },
+    {
+      "type": "Contusão",
+      "title": "Golpe circular",
+      "criticalEffect": "Faça um ataque adicional contra um adversário adjacente ao alvo original, utilizando o mesmo modificador de acerto que o ataque original."
+    },
+    {
+      "type": "Contusão",
+      "title": "Chocalhar",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica confuso por 1 rodada."
+    },
+    {
+      "type": "Contusão",
+      "title": "Apagar as luzes",
+      "criticalEffect": "O alvo fica cego até o final do próximo turno dele."
+    },
+    {
+      "type": "Contusão",
+      "title": "Partir ao meio",
+      "criticalEffect": "O alvo sofre 1d6 de dano persistente de sangramento."
+    },
+    {
+      "type": "Contusão",
+      "title": "Joelho rachado",
+      "criticalEffect": "Até ser curado, o alvo fica desajeitado 2 e sofre -1,5 metros de penalidade de estado na Velocidade em terra dele."
+    },
+    {
+      "type": "Contusão",
+      "title": "Campainha",
+      "criticalEffect": "O alvo fica enjoado 2 e estupefato 2 enquanto estiver enjoado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Impulso",
+      "effect": "Você recebe +2 de bônus de circunstância em todas as rolagens de ataque até o final do seu próximo turno."
+    },
+    {
+      "type": "Contusão",
+      "title": "Costela rachada",
+      "effect": "O alvo fica fatigado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Aparada enfraquecedora",
+      "criticalEffect": "O alvo larga uma arma que está empunhando, determinada pelo MJ."
+    },
+    {
+      "type": "Contusão",
+      "title": "Abertura surpresa",
+      "criticalEffect": "Você recebe 1 ação que pode usar antes do final do seu turno para usar uma ação de ataque contra o alvo."
+    },
+    {
+      "type": "Contusão",
+      "title": "Onde estou?",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica atordoado 2."
+    },
+    {
+      "type": "Contusão",
+      "title": "Triturar",
+      "criticalEffect": "O alvo fica enjoado 3."
+    },
+    {
+      "type": "Contusão",
+      "title": "Baço rompido",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo sofre 1 de dano persistente de sangramento que não pode ser removido até o alvo ser alvo de cura mágica."
+    },
+    {
+      "type": "Contusão",
+      "title": "Pulmão arruinado",
+      "effect": "Dano normal.",
+      "criticalEffect": "Até ser curado, o alvo fica enfraquecido 2 e fatigado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Esmagar os ossos",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica desajeitado 2 e sofre -3 metros de penalidade de estado na Velocidade em terra ou fica desajeitado 2 e não pode usar um dos braços dele (à sua escolha). Qualquer dos efeitos dura até ele ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Intestinos esmagados",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica ferido 2 e enfraquecido 2 até não estar mais ferido."
+    },
+    {
+      "type": "Contusão",
+      "title": "Traqueia esmagada",
+      "criticalEffect": "O alvo fica sufocando (Pathfinder Livro Básico 478) até ser alvo de cura mágica. Ele não pode falar enquanto estiver sufocando."
+    },
+    {
+      "type": "Contusão",
+      "title": "Colisão esmagadora",
+      "effect": "Triplo de dano."
+    },
+    {
+      "type": "Contusão",
+      "title": "Desequilibrado",
+      "effect": "Dano normal. O alvo aciona reações como se tivesse usado uma ação de movimento. Ele também fica desprevinido até o final do próximo turno dele."
+    },
+    {
+      "type": "Contusão",
+      "title": "Cerebral",
+      "effect": "O alvo fica atordoado 1."
+    },
+    {
+      "type": "Contusão",
+      "title": "Boa noite",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica inconsciente e não pode despertar até o final do próximo turno dele."
+    },
+    {
+      "type": "Contusão",
+      "title": "Costelas quebradas",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica lento 1 até ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Baque atordoante",
+      "effect": "O alvo fica atordoante 1."
+    },
+    {
+      "type": "Contusão",
+      "title": "Bater nas orelhas",
+      "effect": "O alvo fica surdo até ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Para você refletir",
+      "criticalEffect": "O alvo fica estupefato 2 até ser curado."
+    },
+    {
+      "type": "Contusão",
+      "title": "Crânio afundado",
+      "effect": "Triplo de dano.",
+      "criticalEffect": "O alvo deve obter sucesso em um salvamento de Fortitude ou morre."
+    },
+    {
+      "type": "Contusão",
+      "title": "Na hora certa!",
+      "effect": "Triplo de dano. O alvo fica prostrado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ferroada",
+      "effect": "Dano normal. O alvo fica enjoado 3."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Mão ferida",
+      "criticalEffect": "Até ser curado, o alvo fica desajeitado 2 e não pode usar uma das mãos dele (determinada aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Tiro no coração",
+      "effect": "Triplo de dano.",
+      "criticalEffect": "O alvo sofre 1d4 de dano persistente de sangramento."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Preso no lugar",
+      "effect": "Como efeito de especialização de crítico no arco. Se esta for uma arma de Corpo a corpo, você deve largar a arma para obter este efeito. Se este ataque já possuir esse efeito, o teste de Atletismo para se livrar é CD 20 em vez de CD 10."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Manco",
+      "criticalEffect": "Até ser curado, o alvo fica desajeitado 2 e sofre -3 metros de penalidade de estado em todas as Velocidades."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ferimento penetrante",
+      "effect": "O ataque ignora todas as resistências."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Machucado profundo",
+      "criticalEffect": "O alvo fica fatigado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Esguichar",
+      "effect": "O alvo sofre 1d6 de dano persistente de sangramento."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Impelir",
+      "effect": "O alvo é empurrado 3 metros."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Escoriação",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica atordoado 3."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Tapa-olho para você",
+      "effect": "Triplo de dano",
+      "criticalEffect": "O alvo fica ofuscado até ser curado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Girar",
+      "effect": "O alvo fica desprevinido até o final do próximo turno dele."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Infecção",
+      "effect": "O alvo deve obter sucesso em um salvamento de Fortitude ou contrai febre imunda (Pathfinder Bestiário 258)."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Perfurado",
+      "effect": "O alvo fica lento 1 até o final do próximo turno dele."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ventilado",
+      "effect": "Triplo de dano."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Braço preso",
+      "effect": "Como o efeito de especialização de crítico de arco, e o alvo não pode usar um dos braços dele até ser libertado. Se estiver usando uma arma Corpo a corpo, você deve largá-la para obter este efeito."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ferimento no peito",
+      "effect": "O alvo fica fatigado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Bem na orelha",
+      "effect": "Dano normal. O alvo fica surdo até ser curado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Buraquinho",
+      "criticalEffect": "O alvo sofre 1 de dano persistente de sangramento que não pode ser removido até o alvo ser curado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Dois em sequência",
+      "criticalEffect": "Causa dano normal a um alvo adicional adjacente ao alvo original."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ponto fraco",
+      "effect": "O alvo fica desprevinido até ser curado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ferimento profundo",
+      "criticalEffect": "O alvo fica enjoado 3."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Deslocar órgãos",
+      "effect": "Triplo de dano.",
+      "criticalEffect": "O alvo fica fatigado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ferimento na perna",
+      "criticalEffect": "O alvo sofre -1,5 metros de penalidade de estado na Velocidade em terra dele até ser curado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ferimento tenaz",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo não pode curar este dano até ter descansado pelo menos 8 horas."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Golpe perfeito",
+      "effect": "Triplo de dano."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ferimento irregular",
+      "effect": "O alvo sofre 1d6 de dano persistente de sangramento."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Golpe cauteloso",
+      "criticalEffect": "Você recebe +2 de bônus de circunstância na CA até o final do seu próximo turno."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ferimento no bíceps",
+      "effect": "O alvo fica enfraquecido 1 até ser curado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Deixar cambaleando",
+      "criticalEffect": "O alvo fica desprevinido até o final do próximo turno dele."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Direto na panturrilha",
+      "criticalEffect": "Até ser curado, o alvo fica desajeitado 1 e sofre -3 metros de penalidade de estado na Velocidade em terra dele."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Espetado",
+      "effect": "Triplo de dano",
+      "criticalEffect": "O alvo fica lento 1 por 1 rodada."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Pancada nas costas",
+      "effect": "O alvo fica prostrado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Impulso",
+      "effect": "Você recebe +2 de bônus de circunstância em todas as rolagens de ataque até o final do seu próximo turno."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Ferimento no ombro",
+      "criticalEffect": "Até ser curado, o alvo fica desajeitado 1 e enfraquecido 2."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Perfurar a língua",
+      "effect": "O alvo deve obter sucesso em um teste simples CD 5 para conjurar Magias com componente verbal até ser curado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Abertura surpresa",
+      "criticalEffect": "Você recebe 1 ação que pode usar antes do final do seu turno para usar uma ação de ataque contra o alvo."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Perfurar o antebraço",
+      "criticalEffect": "O alvo larga uma arma que está segurando (determinada aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Músculo partido",
+      "effect": "Dano normal.",
+      "criticalEffect": "Até ser curado, o alvo fica desajeitado 3 e enfraquecido 3."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Grupos de nervos",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica atordoado 2."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Pulmão perfurado",
+      "criticalEffect": "O alvo fica sufocando (Pathfinder Livro Básico 478) até ser alvo de cura mágica."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Alojado no osso",
+      "criticalEffect": "O alvo sofre 1d6 de dano persistente de sangramento."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Cotovelo perfurado",
+      "effect": "O alvo larga um item que está segurando (determinado aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Fender uma artéria",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo sofre 2d6 de dano persistente de sangramento."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Osso lascado",
+      "effect": "O alvo está desajeitado 1 até ser curado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Perfuração no rim",
+      "effect": "O alvo fica enjoado 2."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Cutucação doloroso",
+      "effect": "O alvo fica atordoado 1."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Punção lombar",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica enjoado 3."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Bochecha perfurada",
+      "effect": "O alvo deve obter sucesso em um teste simples CD 5 para conjurar Magias com componente verbal até ser curado."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Apanhador de azagaia",
+      "effect": "Triplo de dano se o ataque for um ataque à Distância ou de arremesso. Dobro de dano para todos os outros ataques."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Atravessar completamente",
+      "effect": "Triplo de dano."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Reação exagerada",
+      "effect": "Dano normal. O alvo aciona reações como se tivesse usado uma ação de movimento. Ele também fica desprevinido até o final do próximo turno dele."
+    },
+    {
+      "type": "Perfurante",
+      "title": "Tiro na cabeça",
+      "effect": "Triplo de dano.",
+      "criticalEffect": "O alvo deve obter sucesso em um salvamento de Fortitude ou morre."
+    },
+    {
+      "type": "Cortante",
+      "title": "Sem dedos",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo perde 1d4 dedos de uma mão e fica desajeitado 1 até ser alvo da Magia Regeneração ou de efeito similar."
+    },
+    {
+      "type": "Cortante",
+      "title": "Pancada ampla",
+      "effect": "O alvo sofre 1d4 de dano persistente de sangramento."
+    },
+    {
+      "type": "Cortante",
+      "title": "Corte na perna",
+      "effect": "O alvo fica prostrado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Decapitação",
+      "effect": "Triplo de dano.",
+      "criticalEffect": "O alvo deve obter sucesso em um salvamento de Fortitude ou morre."
+    },
+    {
+      "type": "Cortante",
+      "title": "Aparada mal feita",
+      "criticalEffect": "O alvo deve obter sucesso em um salvamento de Reflexos ou larga uma arma que está segurando (determinada aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Cortante",
+      "title": "Ferimento no músculo",
+      "criticalEffect": "O alvo fica enfraquecido 2 até ser curado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Cortar as tripas",
+      "effect": "O alvo sofre 1d4 de dano persistente de sangramento e qualquer criatura que ele Engolir Inteira é imediatamente liberta."
+    },
+    {
+      "type": "Cortante",
+      "title": "Corte terrível",
+      "effect": "Triplo de dano."
+    },
+    {
+      "type": "Cortante",
+      "title": "Dano na armadura",
+      "effect": "A armadura do alvo também sofre dano (aplique a Dureza da armadura normalmente)."
+    },
+    {
+      "type": "Cortante",
+      "title": "Corte atravessador",
+      "criticalEffect": "Faça um ataque adicional contra um adversário adjacente ao alvo original, utilizando o mesmo modificador de acerto que o ataque original."
+    },
+    {
+      "type": "Cortante",
+      "title": "Bordoada com lâmina",
+      "effect": "Triplo de dano. Você pode causar dano contundente em vez de dano cortante."
+    },
+    {
+      "type": "Cortante",
+      "title": "Mão cortada",
+      "effect": "Dano normal. Até ser curado, o alvo fica desajeitado 1, enfraquecido 1 e não pode usar uma das mãos dele (determinada aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Cortante",
+      "title": "Esfolar",
+      "effect": "Dano normal. O alvo fica enfraquecido 3 até ser curado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Corte na garganta",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo sofre 1d8 de dano persistente de sangramento. O alvo não pode falar, conjurar Magias com componente verbal ou respirar enquanto ele estiver sujeito a este dano de sangramento."
+    },
+    {
+      "type": "Cortante",
+      "title": "Impelir",
+      "effect": "Empurra o alvo até 3 metros."
+    },
+    {
+      "type": "Cortante",
+      "title": "Cortar as tiras",
+      "criticalEffect": "A penalidade de armadura em testes do alvo é dobrada até a armadura ser Reparada (CD 15)."
+    },
+    {
+      "type": "Cortante",
+      "title": "Talhar",
+      "criticalEffect": "1d8 de dano persistente de sangramento."
+    },
+    {
+      "type": "Cortante",
+      "title": "Sai da frente",
+      "effect": "Empurra o alvo 1,5 metros."
+    },
+    {
+      "type": "Cortante",
+      "title": "Estripar",
+      "effect": "Triplo de dano."
+    },
+    {
+      "type": "Cortante",
+      "title": "Golpe na arma",
+      "criticalEffect": "Causa dano normal a uma das armas do alvo (aplique a Dureza dela normalmente)."
+    },
+    {
+      "type": "Cortante",
+      "title": "Trespassar escudo",
+      "effect": "Causa dano normal ao escudo do alvo (aplique a Dureza dele normalmente)."
+    },
+    {
+      "type": "Cortante",
+      "title": "Corte na testa",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo sofre 1d4 de dano persistente de sangramento. Até o sangramento parar, todas as criaturas ficam ocultados para o alvo."
+    },
+    {
+      "type": "Cortante",
+      "title": "Rasgar asa",
+      "effect": "O alvo perde qualquer Velocidade de voo até ser curado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Girar",
+      "effect": "O alvo fica desprevenido até o final do próximo turno dele."
+    },
+    {
+      "type": "Cortante",
+      "title": "Golpe de aparada",
+      "criticalEffect": "Você recebe +2 de bônus de circunstância na CA até o final do seu próximo turno."
+    },
+    {
+      "type": "Cortante",
+      "title": "Corte esgotante",
+      "criticalEffect": "O alvo fica fatigado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Ferimento atrasado",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo sofre a mesma quantidade de dano ao final dos próximos dois turnos dele."
+    },
+    {
+      "type": "Cortante",
+      "title": "Tendão partido",
+      "criticalEffect": "Até ser curado, o alvo fica desajeitado 1 e sofre -1,5 metros de penalidade de estado na Velocidade em terra dele."
+    },
+    {
+      "type": "Cortante",
+      "title": "Exibição desconcertante",
+      "criticalEffect": "O alvo fica desprevinido até o final do próximo turno dele."
+    },
+    {
+      "type": "Cortante",
+      "title": "Mandíbula despedaçada",
+      "criticalEffect": "Até ser curado, o alvo fica ferido 1 e não pode falar, comer, beber ou realizar ataques com as mandíbulas dele."
+    },
+    {
+      "type": "Cortante",
+      "title": "Ferimento feio",
+      "effect": "O alvo sofre -2 de penalidade de circunstância em todos os testes de perícia baseadas em Carisma, exceto Intimidação."
+    },
+    {
+      "type": "Cortante",
+      "title": "Impulso",
+      "effect": "Você recebe +2 de bônus de circunstância em todas as rolagens de ataque até o final do seu próximo turno."
+    },
+    {
+      "type": "Cortante",
+      "title": "Emaranhado",
+      "criticalEffect": "Você pode tentar Agarrar o alvo como uma ação livre. Este efeito utiliza a mesma penalidade por ataques múltiplos que seu ataque e não conta para sua penalidade por ataques múltiplos."
+    },
+    {
+      "type": "Cortante",
+      "title": "Ensanguentado",
+      "effect": "O alvo fica enjoado 1."
+    },
+    {
+      "type": "Cortante",
+      "title": "Isquiotibiais",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica prostrado. O alvo também fica desajeitado 2 até ser curado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Da testa ao queixo",
+      "criticalEffect": "O alvo sofre -2 de penalidade de estado em Percepção e em rolagens de ataque à Distância até ser curado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Sem orelha",
+      "effect": "Dano normal. O alvo sofre -2 de penalidade de circunstância em testes de Percepção e testes de perícias baseadas em Carisma (exceto Intimidação) até ser curado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Abertura surpresa",
+      "criticalEffect": "Você recebe 1 ação que pode usar antes do final do seu turno para usar uma ação de ataque contra o alvo."
+    },
+    {
+      "type": "Cortante",
+      "title": "Inclinar no golpe",
+      "effect": "Triplo de dano. Você larga sua arma."
+    },
+    {
+      "type": "Cortante",
+      "title": "Ruptura na cavidade abdominal",
+      "effect": "Triplo de dano. O alvo fica fatigado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Pura dor",
+      "effect": "Triplo de dano."
+    },
+    {
+      "type": "Cortante",
+      "title": "Coluna partida",
+      "criticalEffect": "O alvo deve obter sucesso em um salvamento de Fortitude ou fica paralisado até ser curado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Corte longo",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo sofre 1d4 de dano persistente de sangramento. A CD do teste simples para remover este dano de sangramento é 5 pontos a mais que o normal."
+    },
+    {
+      "type": "Cortante",
+      "title": "Talhar suas iniciais",
+      "effect": "Dano normal. O alvo fica tão humilhado que não pode fazer nada além de atacar você. Ao final de cada um dos turnos dele, ele pode tentar um salvamento de Vontade para encerrar este efeito."
+    },
+    {
+      "type": "Cortante",
+      "title": "Corta e massacra",
+      "effect": "Triplo de dano. O alvo fica desprevinido até o final do próximo turno dele."
+    },
+    {
+      "type": "Cortante",
+      "title": "Pontas dos dedos",
+      "effect": "Dano normal. Até ser curado, o alvo fica desajeitado 1 e não pode usar uma das mãos dele (determinada aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Cortante",
+      "title": "Isso vai deixar marca!",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo sofre 2d6 de dano persistente de sangramento."
+    },
+    {
+      "type": "Cortante",
+      "title": "Cortar os nervos",
+      "criticalEffect": "O alvo fica lento 2 por 1 rodada."
+    },
+    {
+      "type": "Cortante",
+      "title": "Sobre os olhos",
+      "effect": "Dano normal.",
+      "criticalEffect": "O alvo fica cego até ser curado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Corte no lábio",
+      "effect": "O alvo deve obter sucesso em um teste simples CD 5 para conjurar Magias com componente verbal até ser curado."
+    },
+    {
+      "type": "Cortante",
+      "title": "Grande abertura",
+      "effect": "O alvo fica desprevinido até o final do próximo turno dele."
+    },
+    {
+      "type": "Cortante",
+      "title": "Corte de papel",
+      "effect": "O alvo sofre -2 de penalidade de estado em rolagens de ataque até o final do próximo turno dele."
+    },
+    {
+      "type": "Cortante",
+      "title": "Das costelas à virilha",
+      "effect": "Triplo de dano.",
+      "criticalEffect": "O alvo deve obter sucesso em um salvamento de Fortitude ou morre."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Gosma estranha",
+      "effect": "Dano normal e o alvo fica restringido, utilizando sua CD de classe como a CD para Escapar."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Dano duradouro",
+      "effect": "O alvo sofre 1d6 de dano persistente do mesmo tipo de dano da bomba ou Magia."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Exibição aterrorizante",
+      "effect": "O alvo fica assustado 3."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Magia retornável",
+      "effect": "Se for um ataque de Magia, a Magia ou espaço de Magia não é gasto."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Fenda planar",
+      "effect": "Se for uma Magia, o alvo sofre dano normal e deve obter sucesso em um salvamente de Vontade ou é enviado para um plano aleatório (determinado pelo MJ)."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Golpe intenso",
+      "effect": "O ataque ignora todas as resistências."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Respingo Intenso",
+      "effect": "O alvo sofre dano normal e todas as criaturas adjacente ao alvo sofrem metade do dano do mesmo tipo."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Excruciante",
+      "effect": "O alvo fica enjoado 3."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Golpe drenante",
+      "effect": "O alvo perde uma Magia preparada ou espaço de Magia determinado aleatoriamente pelo MJ."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Efeito máximo",
+      "effect": "Não role dano. Você causa o máximo de dano possível em um acerto crítico com este ataque."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Brilho mágico",
+      "effect": "O alvo brilha por 1 minuto com o efeito da Magia Fogo Feérico."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Combustação",
+      "effect": "Se for uma bomba ou Magia de fogo, o alvo sofre o triplo de dano e 1d6 de dano persistente de fogo. Qualquer outra bomba ou Magia causa o dobro de dano."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Corrosivo",
+      "effect": "Se for uma bomba ou Magia de ácido, o alvo sofre o triplo de dano e 1d6 de dano persistente de ácido. Qualquer outra bomba ou Magia causa o dobro de dano."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Drenar vida",
+      "effect": "Se for uma Magia, o alvo fica condenado 1 e você recupera 1d8 Pontos de Vida."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Congelado",
+      "effect": "Se for uma bomba ou Magia de frio, o alvo sofre o triplo de dano e fica lento 2 por 1 rodada. Qualquer outra bomba ou Magia causa o dobro de dano."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Eletrocutado",
+      "effect": "Se for uma bomba ou Magia de eletricidade, o alvo sofre o dobro de dano e, no início do próximo turno dele, sofre o dano normal. Qualquer outra bomba ou Magia causa o dobro de dano."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Impelir",
+      "effect": "Empurra o alvo até 3 metros."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Reação vampírica",
+      "effect": "Dano normal. Você recupera Pontos de Vida igual à metade do dano que causou."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Conduíte",
+      "effect": "O alvo sofre -2 de penalidade de estado na CA e em salvamentos contra suas bombas ou Magias até o final do seu próximo turno."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Dano nos nervos",
+      "effect": "Dano normal. O alvo fica lento 1 até ser curado."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Surto selvagem",
+      "effect": "Dano normal e aplique o dano normalmente novamente de um tipo de energia aleatório (role 1d4: 1 - ácido; 2 - eletricidade; 3 - fogo; 4 - frio)."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Frustração mística",
+      "effect": "O alvo não pode ativar itens mágicos, conjurar Magias ou usar Alquimia Rápida até o final do próximo turno dele."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Poder de energia",
+      "effect": "Se a bomba ou Magia causar dano de ácido, eletricidade, fogo, frio ou sônico, ela causa o triplo de dano. Qualquer outra bomba ou Magia causa o dobro de dano."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Vórtice temporal",
+      "effect": "Se for uma Magia, ela causa dano normal e o alvo desaparece e reaparece 1d4 rodadas depois. O alvo não pode usar ações e quaisquer efeitos que ele tenha com duração não têm o tempo diminuído enquanto ele está desaparecido."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Faseado",
+      "effect": "O alvo fica incorpóreo (Pathfinder Bestiário 346) até o final do seu próximo turno."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Rajada de luz",
+      "effect": "O alvo fica cego até o final do próximo turno dele."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Rajada concussiva",
+      "effect": "O alvo é empurrado até 3 metros e fica prostrado."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Surto de energia",
+      "effect": "Triplo de dano."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Rajada bramida",
+      "effect": "O alvo fica surdo até ser curado."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Encanto protetor",
+      "effect": "Você recebe +2 de bônus de estado na CA e em todas as jogadas de salvamento até o final do seu próximo turno."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Agora você me vê...",
+      "effect": "Você fica invisível até o final do seu próximo turno ou até usar uma ação hostil."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Petrificado",
+      "effect": "O alvo fica petrificado por 10 minutos."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Cores bonitas",
+      "effect": "O alvo fica ofuscado até o final do seu próximo turno."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Atordoado",
+      "effect": "Dano normal. O alvo fica atordoado 2."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Arrancar Magia",
+      "effect": "Dano normal. O alvo não pode conjurar Magias ou ativar itens mágicos por 1d4 rodadas."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Sobrecarga olfativa",
+      "effect": "O alvo perde o sentido do olfato e qualquer habilidade de faro ou outros sentidos olfativos até ser curado."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Mente enevoada",
+      "effect": "O alvo fica estupefato 2 até ser curado."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Reação alérgica",
+      "effect": "O alvo sofre 1d8 de dano de veneno."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Pilhéria",
+      "effect": "O alvo ri descontroladamente até o final do próximo turno dele. Enquanto estiver rindo, ele fica lento 1 e não pode usar reações."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Transposição",
+      "effect": "Se for um ataque de Magia, você e o alvo trocam de lugar. Este é um efeito de teleportação."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Vínculo hipnótico",
+      "effect": "Se for uma Magia, o alvo sofre dano normal e fica controlado por você até o final do próximo turno dele."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Transbordamento psíquico",
+      "effect": "O alvo sofre 1d8 de dano mental."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Vulnerabilidade",
+      "effect": "O alvo adquire fraqueza 5 a quaisquer tipos de dano causados pela bomba ou Magia durante 1 minuto."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Distração",
+      "effect": "O alvo fica desprevinido até o final do próximo turno dele."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Encolhimento colateral",
+      "effect": "Dano normal. O alvo é reduzido em tamanho como se fosse alvo da Magia Encolher (Pathfinder Livro Básico 337) até o final do próximo turno dele."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Queimar os olhos",
+      "effect": "O alvo fica cego até o final do próximo turno dele."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Golpe devastador",
+      "effect": "Triplo de dano. O alvo fica atordoado 1."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Rajada enérgica",
+      "effect": "A bomba ou Magia causa 1d8 de dano de força adicional."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Desacelerado",
+      "effect": "O alvo fica lento 2 por 1 rodada."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Chamado da selva",
+      "effect": "Triplo de dano contra animais, bestas e fadas. Dobro de dano contra todas as outras criaturas."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Ira do acumulador",
+      "effect": "Triplo de dano contra dragões. Dobro de dano contra todas as outras criaturas."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Seleção sobrenatural",
+      "effect": "Triplo de dano contra aberrações, celestiais, ínferos e monitores. Dobro de dano contra todas as outras criaturas."
+    },
+    {
+      "type": "Bomba ou magia",
+      "title": "Condenado!",
+      "effect": "O alvo fica lento 1 por 1 rodada e também fica condenado 1."
+    }
+  ]
+}

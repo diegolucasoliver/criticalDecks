@@ -1,0 +1,11 @@
+{
+  "description": "O grupo pode usar um Baralho de Acertos Críticos em seu jogo para tornar o combate mais surpreendente e perigoso. Sempre que um PJ obtiver um acerto crítico devido a um 20 natural na rolagem do dado, o jogador pode sacar uma carta deste baralho e aplicar o efeito apropriado ao tipo desse ataque (contundente, cortante, perfurante ou bomba ou Magia). Como estes efeitos podem ser mortais contra personagens jogadores, o MJ saca cartas para monstros, PdMs ou perigos somente se o nível da criatura ou perigo for igual ou maior que o nível do alvo.",
+  "mortalVariant": "Para um jogo mais mortal e caótico, o MJ pode permitir um jogador sacar uma carta em qualquer acerto crítico, não somente devido a um 20 natural, assim como sacar uma carta para acertos críticos atingidos por um inimigo independentemente do nível dele.",
+  "specials": [
+    "Um acerto crítico ainda causa o dobro de dano ao alvo a menos que a carta diga que ele causa dano normal ou triplo; ou se o efeito indicado não se aplicar ao ataque usado.",
+    "Qualquer efeito listado como um Efeito Crítico substitui o efeito de especialização de crítico do seu ataque (Pathfinder Livro Básico 283), se houver. Você pode ignorar o efeito da carta e usar o efeito de especialização de crítico existente do seu ataque se preferir.",
+    "Qualquer efeito de carta usando um efeito de especialização de crítico segue as regras para esse efeito caso não seja especificado o contrário.",
+    "Efeitos que escalam por nível utilizam o nível do atacante. A CD de salvamento de um efeito infligido por um PJ é igual à CD de classe dele. Para outras criaturas e perigos, utilize a CD difícil para o nível da criatura ou perigo.",
+    "Um efeito que durar 'até ser curado' é encerrado quando um alvo tiver seus Pontos de Vida restaurados com Tratar Ferimentos ou quando ele for restaurado aos seus Pontos de Vida totais e descansar por 10 minutos."
+  ]
+}

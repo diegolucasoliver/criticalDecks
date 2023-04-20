@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Critical Deck</string>
+
+    <string name="critical_effect">Efeito Crítico:</string>
+</resources>

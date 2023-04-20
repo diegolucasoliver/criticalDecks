@@ -1,0 +1,1071 @@
+{
+  "type": "Falha Crítica",
+  "effectsType": [
+    "Corpo a corpo",
+    "Desarmado",
+    "Distância",
+    "Magia"
+  ],
+  "effects": [
+    {
+      "type": "Corpo a corpo",
+      "title": "Coisas demais!",
+      "effect": "Você fica emaranhado em seus equipamentos e fica sobrecarregado até gastar 2 ações de Interagir para se libertar."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Rodopiando",
+      "effect": "Você fica enjoado 2."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Eu disse que era afiada!",
+      "effect": "Você sofre 1d6 de dano persistente de sangramento."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Picada",
+      "effect": "Você sofre 1 de dano persistente de sangramento."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Foi mal!",
+      "effect": "Você atinge um aliado adjacente a você ou ao alvo."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Bonk!",
+      "effect": "Você fica atordoado 2."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Arma presa",
+      "effect": "Você não pode usar esta arma para atacar até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Pilhéria",
+      "effect": "Você larga um item que está segurando (determinado aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Amassado",
+      "effect": "Os Pontos de Vida atuais de sua arma são reduzidos ao Limiar de Quebra dela. Se já estiver quebrada, a arma sofre 3d6 de dano, ignorando Dureza."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Arma emperrada",
+      "effect": "Sua arma fica alojada em uma superfície ou item próximo. Para libertá-la, você deve obter sucesso em um teste de Atletismo CD 20 feito como uma ação de Interagir."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Erro de cálculo grave",
+      "effect": "Você causa um acerto crítico em você em vez do alvo."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Retomar o fôlego",
+      "effect": "Você fica lento 2 até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Esmagar armadura",
+      "effect": "Você causa o dano normal do ataque à sua armadura, aplicando Dureza."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Entregá-la",
+      "effect": "A menos que você obtenha sucesso em um salvamento de Reflexos, seu alvo obtêm posse de sua arma."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Rachar escudo",
+      "effect": "Você causa o dano normal do ataque ao seu escudo, aplicando Dureza."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Sem fôlego",
+      "effect": "Você fica fatigado."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Tudo ou nada",
+      "effect": "Você sofre -1 de penalidade de circunstância em rolagens de ataque até atingir um acerto crítico."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Hesitação crescente",
+      "effect": "Você fica desprevenido até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Do outro lado",
+      "effect": "Você causa dano em si em vez do alvo."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Soar o próprio sino",
+      "effect": "Você fica surdo até ser curado."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Isto é ruim",
+      "effect": "Você sofre 1d10 de dano persistente de sangramento."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Desequilíbrio",
+      "effect": "Você sofre -2 de penalidade circunstância em rolagens de ataque até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Tensionado",
+      "effect": "Você fica desajeitado 2 até ser curado."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Melhor deixar",
+      "effect": "Você se atinge em vez do alvo."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Acertou a mão",
+      "effect": "Você sofre 1d8 de dano persistente de sangramento."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Escorregou",
+      "effect": "Você fica prostrado"
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Segundas intenções",
+      "effect": "Você fica enjoado 3."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Mão de alface",
+      "effect": "Você larga a arma com que fez o ataque."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Entalhado",
+      "effect": "Sua arma sofre 1d6 de dano, ignorando Dureza."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Arma quebrada",
+      "effect": "Os Pontos de Vida atuais de sua arma são reduzidos ao Limiar de Quebra dela. Se já estiver quebrada, a arma sofre 3d6 de dano, ignorando Dureza."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Coice",
+      "effect": "Você larga a arma usada para o ataque. Ela aterrissa a 1d6 x 1,5 metros de Distância de você em uma direção aleatória."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Músculo repuxado",
+      "effect": "Você fica enfraquecido 2 até ser curado."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Estendido demais",
+      "effect": "Você aciona reações como se tivesse usado uma ação de movimento."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Ataque esquisito",
+      "effect": "Você fica desprevinido até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Esta espada é pesada",
+      "effect": "Você fica fatigado."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Golpe inverso",
+      "effect": "Você causa o dano normal do ataque a si em vez de ao alvo."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Todo aberto",
+      "effect": "Você fica desprevinido até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "A ponta é ali ó",
+      "effect": "Você fica ferido 1 ou seu valor de ferido aumenta em 1."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Cabo quebrado",
+      "effect": "Os Pontos de Vida atuais de sua arma são reduzidos ao Limiar de Quebra dela. Se já estiver quebrada, a arma sofre 3d6 de dano, ignorando Dureza. Se sua arma possuir o traço alcance, ela o perde."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Névoa de guerra",
+      "effect": "Você fica ofuscado até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Nos olhos",
+      "effect": "Você fica ofuscado até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Jogar",
+      "effect": "Sua arma voa 1d4 x 1,5 metros em uma direção aleatória (determinada pelo MJ)."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Pegada Errada",
+      "effect": "Você sofre -2 de penalidade de circunstância em rolagens de ataque com esta arma até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Feito para isso",
+      "effect": "Você é movido 3 metros em uma direção aleatória (determinada pelo MJ). Este movimento aciona reações."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Comer terra",
+      "effect": "Você fica prostrado e cego até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Atacar na escuridão",
+      "effect": "Seus inimigos estão ocultados para você até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Pera aí, quê?",
+      "effect": "Você fica confuso."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Lado errado",
+      "effect": "Se estiver usando uma arma cortante, você sofre 1d6 de dano cortante e 1 de dano persistente de sangramento."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Vibração",
+      "effect": "Se estiver usando uma arma contundente, você larga essa arma e fica enfraquecido 2 até ser curado."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Caiu feio",
+      "effect": "Você fica prostrado e lento 1 até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "O que foi isso?",
+      "effect": "Você fica lento 1 até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Paralisia de decisão",
+      "effect": "Você fica lento 1 até o final do seu próximo turno."
+    },
+    {
+      "type": "Corpo a corpo",
+      "title": "Falha catastrófica",
+      "effect": "Você fica inconsciente até acordar ou até o final do seu próximo turno."
+    },
+    {
+      "type": "Magia",
+      "title": "Vertigem",
+      "effect": "Você fica enjoado 2."
+    },
+    {
+      "type": "Magia",
+      "title": "Movimento de aprendiz",
+      "effect": "Rerrole a rolagem de ataque, mirando a criatura mais próxima do alvo (excluindo você)."
+    },
+    {
+      "type": "Magia",
+      "title": "Eu não, seu idiota!",
+      "effect": "Você atinge o aliado mais próximo do alvo."
+    },
+    {
+      "type": "Magia",
+      "title": "Magia fatigante",
+      "effect": "Você fica fatigado."
+    },
+    {
+      "type": "Magia",
+      "title": "Enfraquecido",
+      "effect": "Você sofre -2 de penalidade de circunstância em rolagens de ataque de Magia e em CDs de Magia até o final do seu próximo turno."
+    },
+    {
+      "type": "Magia",
+      "title": "Efeito colateral",
+      "effect": "Você fica enjoado 1. Você também fica estupefato 2 até ser curado."
+    },
+    {
+      "type": "Magia",
+      "title": "Ficaram maiores",
+      "effect": "O alvo aumenta de tamanho com os efeitos da Magia Crescer de 2º nível."
+    },
+    {
+      "type": "Magia",
+      "title": "Bloqueio do conjurador",
+      "effect": "Você não pode conjurar esta Magia novamente em qualquer nível até descansar e fazer suas preparações diárias."
+    },
+    {
+      "type": "Magia",
+      "title": "Ficar cambaleando",
+      "effect": "Você fica atordoado 1."
+    },
+    {
+      "type": "Magia",
+      "title": "Escudo de Magia",
+      "effect": "O alvo recebe +2 de bônus de estado em jogadas de salvamento contra Magias por 1 minuto."
+    },
+    {
+      "type": "Magia",
+      "title": "Deu um branco",
+      "effect": "Você fica estupefato 1 até ser curado."
+    },
+    {
+      "type": "Magia",
+      "title": "Ficaram mais fortes",
+      "effect": "O alvo recebe +2 de bônus de estado em rolagens de ataque até o final do próximo turno dele."
+    },
+    {
+      "type": "Magia",
+      "title": "Rajada inesperada",
+      "effect": "Sua Magia afeta todos os alvos a até 9 metros de você. Você é imune a este efeito."
+    },
+    {
+      "type": "Magia",
+      "title": "Ficaram mais rápidos",
+      "effect": "O alvo fica acelerado por 2 rodadas."
+    },
+    {
+      "type": "Magia",
+      "title": "Ficaram mais resistentes",
+      "effect": "O alvo adquire resistência 5 a todo dano até o início do próximo turno dele."
+    },
+    {
+      "type": "Magia",
+      "title": "Troca ruim",
+      "effect": "Você acerta, mas perde uma Magia preparada ou um espaço de Magia do maior nível disponível (você escolhe a Magia)."
+    },
+    {
+      "type": "Magia",
+      "title": "Por que eu?",
+      "effect": "Você provoca reações como se estivesse usado uma ação de movimento."
+    },
+    {
+      "type": "Magia",
+      "title": "Erro!",
+      "effect": "Você causa o dano normal da Magia em si em vez do alvo."
+    },
+    {
+      "type": "Magia",
+      "title": "Consegue me ouvir?",
+      "effect": "Você fica surdo até ser curado."
+    },
+    {
+      "type": "Magia",
+      "title": "A Magia já era",
+      "effect": "Você sofre -1 de penalidade de circunstância em rolagens de ataque até atingir um acerto crítico."
+    },
+    {
+      "type": "Magia",
+      "title": "Componentes misturados",
+      "effect": "Você fica lento 2 até o final do seu próximo turno."
+    },
+    {
+      "type": "Magia",
+      "title": "Drenar energia",
+      "effect": "Você perde uma Magia preparada ou espaço de Magia (determinada aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Magia",
+      "title": "Drenar mente",
+      "effect": "Você fica estupefato 1 até ser curado."
+    },
+    {
+      "type": "Magia",
+      "title": "Surto de Magia",
+      "effect": "Você fica estupefato 1 até ser curado."
+    },
+    {
+      "type": "Magia",
+      "title": "Clatu, verata, nictu",
+      "effect": "Você atinge um acerto crítico no aliado mais próximo."
+    },
+    {
+      "type": "Magia",
+      "title": "Nariz sangrando",
+      "effect": "Você sofre 1 de dano persistente de sangramento."
+    },
+    {
+      "type": "Magia",
+      "title": "Vácuo mágico",
+      "effect": "Os efeitos de todas as Magias benéficas o afetando são encerrados imediatamente."
+    },
+    {
+      "type": "Magia",
+      "title": "Fadiga mágica",
+      "effect": "Você não pode conjurar quaisquer Magias até o final do seu próximo turno."
+    },
+    {
+      "type": "Magia",
+      "title": "Retorno elétrico",
+      "effect": "Você sofre 2d6 de dano elétrico."
+    },
+    {
+      "type": "Magia",
+      "title": "Fenda bestial",
+      "effect": "Sua Magia se torna Convocar Animal do mesmo nível. O animal o ataca."
+    },
+    {
+      "type": "Magia",
+      "title": "Reflexão",
+      "effect": "A Magia o atinge em vez do alvo."
+    },
+    {
+      "type": "Magia",
+      "title": "Combustão espontânea",
+      "effect": "Você sofre 2d6 de dano de fogo."
+    },
+    {
+      "type": "Magia",
+      "title": "Reação crítica",
+      "effect": "Você causa um acerto crítico em você em vez do alvo."
+    },
+    {
+      "type": "Magia",
+      "title": "Reação ácida",
+      "effect": "Você sofre 2d6 de dano de ácido."
+    },
+    {
+      "type": "Magia",
+      "title": "Olhos sangrando",
+      "effect": "Você sofre 1d6 de dano persistente de sangramento."
+    },
+    {
+      "type": "Magia",
+      "title": "Enrolado em itens",
+      "effect": "Você fica sobrecarregado até gastar 2 ações de Interagir para se libertar."
+    },
+    {
+      "type": "Magia",
+      "title": "Fenda distante",
+      "effect": "Você é teleportado para o espaço adjacente mais próximo do alvo da sua Magia."
+    },
+    {
+      "type": "Magia",
+      "title": "Magia selvagem",
+      "effect": "Role duas vezes no Bastão das Maravilhas (Pathfinder Livro Básico 575). Você é o alvo desses efeitos."
+    },
+    {
+      "type": "Magia",
+      "title": "Magia drenante",
+      "effect": "Você fica drenado 1."
+    },
+    {
+      "type": "Magia",
+      "title": "Tudo a temer",
+      "effect": "Você fica assustado 3."
+    },
+    {
+      "type": "Magia",
+      "title": "Agora eu te vejo...",
+      "effect": "Seu alvo fica invisível até o final do próximo turno dele ou até ele usar uma ação hostil."
+    },
+    {
+      "type": "Magia",
+      "title": "Tão brilhante!",
+      "effect": "Você fica cego até o final do seu próximo turno."
+    },
+    {
+      "type": "Magia",
+      "title": "Decolar",
+      "effect": "Você deve obter sucesso em uma jogada de salvamento de Vontade ou é arremessado 1d6 x 1,5 metros no ar (ou em uma direção aleatória determinada pelo MJ se você estiver voando)."
+    },
+    {
+      "type": "Magia",
+      "title": "Como isso aconteceu?",
+      "effect": "Você invoca uma bruma com os efeitos de Nuvem Fétida centrada em um canto de seu espaço (determinado aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Magia",
+      "title": "Transferência estranha",
+      "effect": "Perde uma Magia preparada ou espaço de Magia, determinado aleatoriamente pelo MJ. Seu alvo pode Conjurar esta Magia no próximo turno dele mesmo que não pudesse conjurar Magias, utilizando seu nível, modificador de ataque de Magia e CD de Magia."
+    },
+    {
+      "type": "Magia",
+      "title": "Transferência de poder",
+      "effect": "A Magia benéfica de maior nível atualmente o afetando é transferida para seu alvo."
+    },
+    {
+      "type": "Magia",
+      "title": "Deslize mental",
+      "effect": "Você fica controlado pelo alvo até o final do seu próximo turno."
+    },
+    {
+      "type": "Magia",
+      "title": "Sem energia",
+      "effect": "Você fica estupefato 2 até ser curado."
+    },
+    {
+      "type": "Magia",
+      "title": "Repercussão mental",
+      "effect": "Você fica estupefato 3 até ser curado."
+    },
+    {
+      "type": "Magia",
+      "title": "Crânio explodindo",
+      "effect": "Você deve tentar um salvamento de Fortitude. Se obtiver sucesso, você sofre 3d6 de dano mental. Se falhar, sua cabeça explode e você morre."
+    },
+    {
+      "type": "Magia",
+      "title": "Magia fragmentada",
+      "effect": "Seu alvo recebe o efeito da Magia Imagem Espelhada."
+    },
+    {
+      "type": "Magia",
+      "title": "Amaldiçoado",
+      "effect": "Você fica condenado 1."
+    },
+    {
+      "type": "Magia",
+      "title": "Mágica esmagadora",
+      "effect": "Você falha automaticamente (mas não criticamente) em sua próxima jogada de salvamento."
+    },
+    {
+      "type": "Distância",
+      "title": "Entorse",
+      "effect": "Você fica desajeitado 2 até ser curado."
+    },
+    {
+      "type": "Distância",
+      "title": "Talhado",
+      "effect": "Você sofre 1 de dano persistente de sangramento."
+    },
+    {
+      "type": "Distância",
+      "title": "Estabanado",
+      "effect": "Você larga a arma que usou."
+    },
+    {
+      "type": "Distância",
+      "title": "Munição caída",
+      "effect": "A munição da arma que você está usando cai do recipiente dela direto no chão. Você pode usar 1 ação de Interagir para pegar uma unidade de munição caída desta forma."
+    },
+    {
+      "type": "Distância",
+      "title": "Perdeu o alvo",
+      "effect": "Você sofre -2 de penalidade de circuntância em rolagens de ataque até o final do seu próximo turno."
+    },
+    {
+      "type": "Distância",
+      "title": "Atirar no próprio pé",
+      "effect": "Você fica desajeitado 2 e sofre -1,5 metros de penalidade de circunstância em sua Velocidade em terra até ser curado."
+    },
+    {
+      "type": "Distância",
+      "title": "Erro fantástico",
+      "effect": "Você fica atordoado 1."
+    },
+    {
+      "type": "Distância",
+      "title": "Meu pônei não!",
+      "effect": "Você atinge o companheiro animal, familiar ou montaria mais próxima."
+    },
+    {
+      "type": "Distância",
+      "title": "Erro duplo",
+      "effect": "Se este ataque usar munição, você usa o dobro da quantidade de munição neste ataque."
+    },
+    {
+      "type": "Distância",
+      "title": "Cotovelo de arqueiro",
+      "effect": "Você sofre -2 de penalidade de circuntância em ataques à Distância até ser curado."
+    },
+    {
+      "type": "Distância",
+      "title": "Coice de mula",
+      "effect": "Você fica prostrado."
+    },
+    {
+      "type": "Distância",
+      "title": "Arma errada",
+      "effect": "Se fez um ataque de arremesso, em vez disso você arremessa  um objeto dentre seus equipamentos (determinado aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Distância",
+      "title": "Perder a pegada",
+      "effect": "Você fica lento 2 até o final do seu próximo turno."
+    },
+    {
+      "type": "Distância",
+      "title": "Quebrado",
+      "effect": "Os Pontos de Vida atuais de sua arma são reduzidos ao Limiar de Quebra dela. Se já estiver quebrada, a arma sofre 3d6 de dano, ignorando Dureza."
+    },
+    {
+      "type": "Distância",
+      "title": "Tudo o que tinha",
+      "effect": "Você fica fatigado."
+    },
+    {
+      "type": "Distância",
+      "title": "Mal alinhado",
+      "effect": "Você sofre -2 de penalidade de circunstância em ataques usando esta arma até o final do seu próximo turno."
+    },
+    {
+      "type": "Distância",
+      "title": "Perto da orelha",
+      "effect": "Você fica surdo até o final do seu próximo turno."
+    },
+    {
+      "type": "Distância",
+      "title": "Inseguro",
+      "effect": "Você sofre -1 de penalidade de circunstância em rolagens de ataque até atingir um acerto crítico."
+    },
+    {
+      "type": "Distância",
+      "title": "Na linha de fogo",
+      "effect": "Você atinge um acerto crítico no aliado mais próximo."
+    },
+    {
+      "type": "Distância",
+      "title": "Guarda baixa",
+      "effect": "Você provoca reações como se estivesse usado uma ação de movimento."
+    },
+    {
+      "type": "Distância",
+      "title": "Quais as chances?",
+      "effect": "Se for um ataque com arma de arremesso e o alvo puder segurar a arma, o alvo apanha a arma no ar e a empunha."
+    },
+    {
+      "type": "Distância",
+      "title": "Fogo amigo",
+      "effect": "Você acerta o aliado mais próximo do alvo."
+    },
+    {
+      "type": "Distância",
+      "title": "Ops!",
+      "effect": "Você fica prostrado."
+    },
+    {
+      "type": "Distância",
+      "title": "Problema com a arma",
+      "effect": "Se o ataque usou uma arma de projétil, algo da arma apresentou falha, requerendo que você gaste 2 ações de Interagir para arrumá-la."
+    },
+    {
+      "type": "Distância",
+      "title": "Oopsie!",
+      "effect": "Você se atinge em vez do alvo."
+    },
+    {
+      "type": "Distância",
+      "title": "Tiro pela culatra",
+      "effect": "Você se atinge em vez do alvo."
+    },
+    {
+      "type": "Distância",
+      "title": "Atrapalhado",
+      "effect": "Você não pode realizar ataques à Distância até o final do seu próximo turno."
+    },
+    {
+      "type": "Distância",
+      "title": "Corda rompida",
+      "effect": "Se o ataque usou uma arma no grupo de arcos, a corda se rompe, requerendo 3 ações de Interagir para arrumar."
+    },
+    {
+      "type": "Distância",
+      "title": "Dedos talhados",
+      "effect": "Você sofre 1d4 de dano persistente de sangramento."
+    },
+    {
+      "type": "Distância",
+      "title": "Meus pedaços de baço!",
+      "effect": "Você fica ferido 1 ou seu valor de ferido aumenta em 1."
+    },
+    {
+      "type": "Distância",
+      "title": "Tontura",
+      "effect": "Você fica enjoado 2."
+    },
+    {
+      "type": "Distância",
+      "title": "Ataque esquisito",
+      "effect": "Você fica desprevinido até o final do seu próximo turno."
+    },
+    {
+      "type": "Distância",
+      "title": "Costas doloridas",
+      "effect": "Você fica fatigado."
+    },
+    {
+      "type": "Distância",
+      "title": "Tirar os olhos pra fora",
+      "effect": "Você causa um acerto crítico em você em vez do alvo."
+    },
+    {
+      "type": "Distância",
+      "title": "Mira errante",
+      "effect": "Rerrole a rolagem de ataque, mirando a criatura mais próxima do alvo (excluindo você)."
+    },
+    {
+      "type": "Distância",
+      "title": "Todo aberto",
+      "effect": "Você fica desprevinido até o final do seu próximo turno."
+    },
+    {
+      "type": "Distância",
+      "title": "Rachado",
+      "effect": "A arma à Distância (não a munição) que você está usando sofre 1d6 de dano, ignorando Dureza."
+    },
+    {
+      "type": "Distância",
+      "title": "Visão em túnel",
+      "effect": "Por 3 rodadas, você recebe +1 de bônus de circunstância em rolagens de ataque, mas fica desprevinido."
+    },
+    {
+      "type": "Distância",
+      "title": "Só polegares",
+      "effect": "Você fica desajeitado 1 até ser curado."
+    },
+    {
+      "type": "Distância",
+      "title": "Na mosca",
+      "effect": "Seu ataque ricocheteia e o atinge perto do olho. Você fica cego até o final do seu próximo turno."
+    },
+    {
+      "type": "Distância",
+      "title": "Prender um dedo",
+      "effect": "Você sofre 1d6 de dano persistente de sangramento."
+    },
+    {
+      "type": "Distância",
+      "title": "Sangue demais",
+      "effect": "Você fica enjoado 3."
+    },
+    {
+      "type": "Distância",
+      "title": "Ahn?",
+      "effect": "Você fica confuso."
+    },
+    {
+      "type": "Distância",
+      "title": "Distância errada",
+      "effect": "Até o final do seu próximo turno, suas penalidades por incremento de Distância são dobradas."
+    },
+    {
+      "type": "Distância",
+      "title": "Supercompensar",
+      "effect": "Cobertura fornece +4 de bônus de circunstância na CA contra seus ataques à Distância por 1 minuto."
+    },
+    {
+      "type": "Distância",
+      "title": "Mire melhor na próxima",
+      "effect": "Até o final do seu próximo turno, seus ataques requerem uma ação extra para usar."
+    },
+    {
+      "type": "Distância",
+      "title": "Não me acerta!",
+      "effect": "Até o final do seu próximo turno, cada vez que você errar com um ataque à Distância mirando um inimigo adjacente a qualquer de seus aliados, você atinge um desses aliados em vez do inimigo (determinado aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Distância",
+      "title": "Vento fantasma",
+      "effect": "Você sofre -2 de penalidade de circunstância em ataques à Distância até o final do seu próximo turno."
+    },
+    {
+      "type": "Distância",
+      "title": "Recuo",
+      "effect": "Você é empurrado 1,5 metros para trás e fica prostrado."
+    },
+    {
+      "type": "Distância",
+      "title": "Tiro torcido",
+      "effect": "Você sofre -3 metros de penalidade em sua Velocidade em terra e fica desajeitado 1 até ser curado."
+    },
+    {
+      "type": "Distância",
+      "title": "Vendo dobrado",
+      "effect": "Você fica ofuscado até o final do seu próximo turno."
+    },
+    {
+      "type": "Distância",
+      "title": "Tendão rasgado",
+      "effect": "Você fica desajeitado 2 até ser curado."
+    },
+    {
+      "type": "Distância",
+      "title": "Excesso de força",
+      "effect": "Se o ataque usou uma arma de arremesso, a arma viaja três vezes o incremento de Distância dela em uma Distância aleatória (determinada pelo MJ)."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Punho sangrando",
+      "effect": "Você sofre 1d6 de dano persistente de sangramento."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Torcido",
+      "effect": "Você fica sobrecarregado até gastar 2 ações de Interagir para se libertar."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Pare de se bater",
+      "effect": "Você se atinge em vez do alvo."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Só um gostinho",
+      "effect": "Você atinge um aliado adjacente a você ou ao alvo."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Entorse",
+      "effect": "Você fica desajeitado 2 até ser curado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Esforço em excesso",
+      "effect": "Você fica fatigado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Contusão óssea",
+      "effect": "Você fica ferido 1 ou seu valor de ferido aumenta em 1."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Cabeçada mal dada",
+      "effect": "Você fica atordoado 1."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Pegar seu ataque",
+      "effect": "Este ataque concede e aciona uma reação de Derrubar ou Empurrar de seu inimigo."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Desequilíbrio",
+      "effect": "Você fica lento 2 até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Não acha uma brecha",
+      "effect": "Você não pode usar este ataque até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Perto demais",
+      "effect": "Este ataque concede e aciona uma reação de Agarrar ou Atracar de seu inimigo."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Desgastado",
+      "effect": "Você sofre -2 de penalidade de circunstância em testes e jogadas de salvamento até ser curado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Bater no chão",
+      "effect": "Você levanta uma nuvem de poeira, ficando cego até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Adversário afiado",
+      "effect": "Você sofre 2d6 de dano cortante ou perfurante (determinado pelo MJ)."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Mordeu sua mão",
+      "effect": "O alvo causa dano de mandíbulas a você."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Comichão",
+      "effect": "Você fica enjoado 3."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Grande estrondo",
+      "effect": "Você fica surdo até ser curado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Cabeça, conheça a parede",
+      "effect": "Você fica atordoado 1."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Trapalhada feroz",
+      "effect": "Você atinge um acerto crítico em um aliado em seu alcance (determinado aleatoriamente pelo MJ)."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Redemoinho da vergonha",
+      "effect": "Você atinge todas as criaturas adjacentes a você, exceto o alvo."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Algo está quebrado",
+      "effect": "Você sofre 1d4 de dano contundente e você não pode usar este ataque até ser curado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Fora de posição",
+      "effect": "Você não pode usar este ataque até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Espirrar",
+      "effect": "Você fica lento 1 até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Unha encravada",
+      "effect": "Você sofre -1 de penalidade de circunstância em rolagens de ataque até atingir um acerto crítico."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Ego machucado",
+      "effect": "Você não pode atacar outra criatura até o alvo ser nocauteado ou até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Unha encravada",
+      "effect": "Se atacou com uma garra ou punho, você não pode usar esse ataque até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Músculo distendido",
+      "effect": "Você fica enfraquecido 1 até ser curado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Bater na parede",
+      "effect": "Você está fatigado"
+    },
+    {
+      "type": "Desarmado",
+      "title": "Frustração",
+      "effect": "Você sofre -2 de penalidade de circunstância em rolagens de ataque até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Estendido demais",
+      "effect": "Você aciona reações como se tivesse usado uma ação de movimento."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Morda sua língua!",
+      "effect": "Você sofre 1 de dano persistente de sangramento."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Estômago virado",
+      "effect": "Você fica enjoado 2."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Ataque fatigante",
+      "effect": "Você fica fatigado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Ataque esquisito",
+      "effect": "Você fica desprevinido até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Tropeçado",
+      "effect": "Você fica prostrado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Mão na cara",
+      "effect": "Você causa um acerto crítico em você em vez do alvo."
+    },
+    {
+      "type": "Desarmado",
+      "title": "A cabeça primeiro!",
+      "effect": "Você fica inconsciente até acordar ou até final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Baforada",
+      "effect": "Você se atinge em vez do alvo."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Esmagar um dedo",
+      "effect": "Você atinge o alvo e causa a quantidade mínima de dano que poderia com o ataque. Você sofre o dano normal do ataque."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Ventos de mudança",
+      "effect": "Você não pode atacar o mesmo alvo novamente até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Movimento involuntário",
+      "effect": "Você é movido 3 metros em uma direção aleatória (determinada pelo MJ). Este movimento aciona reações."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Olho tensionado",
+      "effect": "Você fica ofuscado até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "No ponto fraco não",
+      "effect": "Você sofre 1d6 de dano persistente de sangramento e não pode usar este ataque até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Que gosto horrível!",
+      "effect": "Se este foi um ataque de mandíbulas (ou similar), você fica enjoado 3."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Colisão brutal",
+      "effect": "Tente um salvamento de Fortitude. Se obtiver sucesso, você fica atordoado 1. Se falhar, você fica atordoado 2."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Nervo pinçado",
+      "effect": "Você sofre -3 metros de penalidade de circunstância na Velocidade em terra e fica desajeitado 1 até ser curado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Pensar demais",
+      "effect": "Seu alvo recebe +2 de bônus de circunstância na CA contra ataques que você fizer contra ele até o final do seu próximo turno."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Pé furado",
+      "effect": "Você sofre 1d4 de dano persistente de sangramento. Até este efeito acabar, você sofre -3 metros de penalidade em sua Velocidade em terra."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Mau jeito",
+      "effect": "Você fica desajeitado 1 e enfraquecido 2."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Dente quebrado",
+      "effect": "Você sofre -2 de penalidade de circunstância em rolagens de ataque até ser curado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Falha mordaz",
+      "effect": "Você sofre -2 de penalidade de circunstância em rolagens de ataque feitos com este ataque até ser curado."
+    },
+    {
+      "type": "Desarmado",
+      "title": "Não pega nisso",
+      "effect": "Você fica ferido 1 ou seu valor de ferido aumenta em 1."
+    }
+  ]
+}

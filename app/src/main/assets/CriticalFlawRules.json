@@ -1,0 +1,11 @@
+{
+  "description": "Um grupo pode usar um Baralho de Falhas Críticas em seu jogo para tornar o combate mais surpreendente e perigoso. Sempre que um PJ ou um adversário obter uma falha crítica devido a 1 natural na rolagem de dado, o jogador pode sacar uma carta deste baralho e aplicar o efeito apropriado ao tipo desse ataque (Corpo a corpo, Distância, Desarmado ou Magia).",
+  "mortalVariant": "Para um jogo mais mortal e caótico, o MJ pode permitir sacar uma carta em qualquer falha crítica, não somente devido a um 1 natural.",
+  "proficiencyVariant": "Se o PJ, PdM ou outra criatura possuir graduação de proficiência mestre no ataque em que obteve falha crítica, ele pode sacar duas cartas de crítico e escolher aplicar um dos dois efeitos listados. Se a criatura for lendária com esse ataque, ela pode sacar três cartas de crítico e escolhe aplicar um dos três efeitos listados.",
+  "criticalSuccessDeckVariant": "Se estiver usando o Baralho de Falhas Críticas, a qualquer momento em que um PJ atingir um acerto crítico, o jogador pode sacar uma carta e, em vez de jogá-la, causar dano normal e manter a carta. Esse jogador pode, posteriormente, desfazer da carta de acerto crítico dele para anular uma falha crítica rolado pelo PJ dele ou de qualquer outro membro do grupo.",
+  "specials": [
+    "Efeitos que escalam baseado no nível utilizam o nível do atacante.",
+    "A CD de salvamento de um efeito aplicado a um PJ é igual à CD difícil para o nível da criatura ou perigo. Efeitos aplicados a um adversário utilizam a CD de classe do PJ.",
+    "Um efeito que durar 'até ser curado' é encerrado quando um alvo tiver seus Pontos de Vida restaurados com Tratar Ferimentos ou quando ele for restaurado aos seus Pontos de Vida totais e descansar por 10 minutos."
+  ]
+}
