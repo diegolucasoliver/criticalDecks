@@ -49,7 +49,7 @@ fun RulesScreen(rules: Rules) {
         rules.specials.forEach {
             Row {
                 Text(
-                    text = "*",
+                    text = "\u2022",
                     style = MaterialTheme.typography.boldBody,
                     modifier = Modifier.padding(end = 4.dp)
                 )
