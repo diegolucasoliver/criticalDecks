@@ -27,7 +27,7 @@ import androidx.compose.ui.window.DialogProperties
 import androidx.navigation.NavController
 import com.lekrom.criticaldeck.model.Deck
 import com.lekrom.criticaldeck.routing.Screen
-import com.lekrom.criticaldeck.ui.components.Card
+import com.lekrom.criticaldeck.ui.components.DeckCard
 import com.lekrom.criticaldeck.ui.components.Deck
 import com.lekrom.criticaldeck.ui.theme.deckTitle
 
@@ -59,7 +59,7 @@ fun CardsScreen(navController: NavController, deck: Deck) {
                         shape = shape
                     )
             ) {
-                Card(card = deck.effects.filter { it.type == effectType }.random())
+                DeckCard(card = deck.effects.filter { it.type == effectType }.random())
             }
         }
     }
