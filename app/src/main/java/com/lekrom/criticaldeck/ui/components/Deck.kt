@@ -26,7 +26,7 @@ fun Deck(title: String, action: () -> Unit) {
     val shape = RoundedCornerShape(corner = CornerSize(12.dp))
     Box(
         modifier = Modifier
-            .padding(bottom = 8.dp)
+            .padding(bottom = 16.dp)
             .clip(shape)
             .border(
                 width = 1.dp,

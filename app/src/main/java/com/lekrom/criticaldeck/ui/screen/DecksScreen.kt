@@ -21,7 +21,7 @@ import com.lekrom.criticaldeck.ui.components.Deck
 fun DecksScreen(navController: NavController, decks: CriticalDecks) {
     Column(
         modifier = Modifier
-            .padding(horizontal = 16.dp)
+            .padding(horizontal = 32.dp)
             .fillMaxSize(),
         verticalArrangement = Arrangement.Center
     ) {

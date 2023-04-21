@@ -66,7 +66,7 @@ fun CardsScreen(navController: NavController, deck: Deck) {
 
     Column(
         modifier = Modifier
-            .padding(16.dp)
+            .padding(horizontal = 32.dp, vertical = 16.dp)
             .fillMaxSize(),
         verticalArrangement = Arrangement.SpaceEvenly
     ) {
