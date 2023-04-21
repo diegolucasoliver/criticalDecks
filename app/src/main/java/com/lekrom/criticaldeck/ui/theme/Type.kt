@@ -32,7 +32,7 @@ val Typography.deckTitle: TextStyle
     @Composable
     get() {
         return TextStyle(
-            fontWeight = FontWeight.Normal,
+            fontWeight = FontWeight.Bold,
             fontSize = 34.sp,
             letterSpacing = 0.25.sp
         )
@@ -42,7 +42,7 @@ val Typography.cardTitle: TextStyle
     @Composable
     get() {
         return TextStyle(
-            fontWeight = FontWeight.Medium,
+            fontWeight = FontWeight.Bold,
             fontSize = 20.sp,
             letterSpacing = 0.15.sp
         )
