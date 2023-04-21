@@ -37,7 +37,7 @@ import com.lekrom.criticaldeck.ui.theme.body
 import com.lekrom.criticaldeck.ui.theme.boldBody
 import com.lekrom.criticaldeck.ui.theme.cardTitle
 
-@ExperimentalMaterialApi
+@OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun ExpandableCard(
     title: String,

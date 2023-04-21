@@ -29,7 +29,6 @@ sealed class Screen(val route: String) {
         }
     }
 }
-
 @Composable
 fun Navigation(assetManager: AssetManager) {
     val navController = rememberNavController()
@@ -65,7 +64,7 @@ fun Navigation(assetManager: AssetManager) {
             )
         ) { entry ->
             val rules = entry.arguments?.getString("rules").getRules()
-            RulesScreen(rules = assetManager.readAssetsFile(rules).rulesFromJson())
+            RulesScreen(navController, rules = assetManager.readAssetsFile(rules).rulesFromJson())
         }
     }
 }
