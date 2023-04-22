@@ -1,6 +1,7 @@
 package com.lekrom.criticaldeck.ui.screen
 
 import android.annotation.SuppressLint
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -20,58 +21,69 @@ import androidx.navigation.NavController
 import com.lekrom.criticaldeck.model.Rules
 import com.lekrom.criticaldeck.ui.components.CustomTopAppBar
 import com.lekrom.criticaldeck.ui.components.ExpandableCard
+import com.lekrom.criticaldeck.ui.theme.CriticalDeckTheme
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
-fun RulesScreen(navController: NavController, rules: Rules) {
+fun RulesScreen(navController: NavController, rules: Rules, isFlawTheme: Boolean) {
 
-    Scaffold(
-        topBar = {
-            CustomTopAppBar(
-                title = { Text(text = "Regras") },
-                navigationIcon = {
-                    IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(imageVector = Icons.Default.ArrowBack, contentDescription = "")
-                    }
-                },
-                backgroundColor = MaterialTheme.colors.primaryVariant
-            )
-        }
-    ) {
-        Column(
-            modifier = Modifier
-                .padding(horizontal = 32.dp, vertical = 16.dp)
-                .verticalScroll(rememberScrollState())
-                .fillMaxSize()
-        ) {
-
-            ExpandableCard(
-                title = "Gerais",
-                content = rules.description
-            )
-
-            ExpandableCard(
-                title = "Especiais",
-                listContent = rules.specials
-            )
-
-            ExpandableCard(
-                title = "Variante Mortal",
-                content = rules.mortalVariant
-            )
-
-            rules.proficiencyVariant?.let {
-                ExpandableCard(
-                    title = "Variante por Proficiência",
-                    content = it
+    CriticalDeckTheme(isFlawTheme) {
+        Scaffold(
+            topBar = {
+                CustomTopAppBar(
+                    title = { Text(text = "Regras") },
+                    navigationIcon = {
+                        IconButton(onClick = { navController.popBackStack() }) {
+                            Icon(imageVector = Icons.Default.ArrowBack, contentDescription = "")
+                        }
+                    },
+                    backgroundColor = MaterialTheme.colors.primaryVariant
                 )
             }
+        ) {
+            Column(
+                modifier = Modifier
+                    .background(color = MaterialTheme.colors.secondary)
+                    .padding(bottom = 16.dp, start = 32.dp, end = 32.dp)
+                    .fillMaxSize()
+                    .verticalScroll(rememberScrollState())
+            ) {
 
-            rules.criticalSuccessDeckVariant?.let {
+                val backgroundColor = MaterialTheme.colors.primary
+
                 ExpandableCard(
-                    title = "Variante com Baralho de Acertos Críticos",
-                    content = it
+                    title = "Gerais",
+                    content = rules.description,
+                    backgroundColor = backgroundColor
                 )
+
+                ExpandableCard(
+                    title = "Especiais",
+                    listContent = rules.specials,
+                    backgroundColor = backgroundColor
+                )
+
+                ExpandableCard(
+                    title = "Variante Mortal",
+                    content = rules.mortalVariant,
+                    backgroundColor = backgroundColor
+                )
+
+                rules.proficiencyVariant?.let {
+                    ExpandableCard(
+                        title = "Variante por Proficiência",
+                        content = it,
+                        backgroundColor = backgroundColor
+                    )
+                }
+
+                rules.criticalSuccessDeckVariant?.let {
+                    ExpandableCard(
+                        title = "Variante com Baralho de Acertos Críticos",
+                        content = it,
+                        backgroundColor = backgroundColor
+                    )
+                }
             }
         }
     }

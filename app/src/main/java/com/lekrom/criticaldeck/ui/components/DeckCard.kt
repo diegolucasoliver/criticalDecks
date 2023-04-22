@@ -9,22 +9,23 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.lekrom.criticaldeck.R
 import com.lekrom.criticaldeck.model.Card
-import com.lekrom.criticaldeck.ui.theme.CardBackground
 import com.lekrom.criticaldeck.ui.theme.CriticalDeckTheme
+import com.lekrom.criticaldeck.ui.theme.FlawPrimary
 import com.lekrom.criticaldeck.ui.theme.body
 import com.lekrom.criticaldeck.ui.theme.boldBody
 import com.lekrom.criticaldeck.ui.theme.cardTitle
 
 @Composable
-fun DeckCard(card: Card) {
+fun DeckCard(card: Card, backGroundColor: Color) {
     Box(
         modifier = Modifier
-            .background(color = CardBackground)
+            .background(color = backGroundColor)
     ) {
         Column(
             modifier = Modifier.padding(16.dp)
@@ -66,7 +67,8 @@ fun CardPreview() {
                 title = "Coisas demais!",
                 effect = "Você fica emaranhado em seus equipamentos e fica sobrecarregado até gastar 2 ações de Interagir para se libertar.",
                 criticalEffect = "Teste"
-            )
+            ),
+            FlawPrimary
         )
     }
 }

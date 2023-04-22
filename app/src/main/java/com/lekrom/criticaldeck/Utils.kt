@@ -1,10 +1,13 @@
 package com.lekrom.criticaldeck
 
 import android.content.res.AssetManager
+import androidx.compose.ui.graphics.Color
 import com.google.gson.Gson
 import com.lekrom.criticaldeck.model.CriticalDecks
 import com.lekrom.criticaldeck.model.Deck
 import com.lekrom.criticaldeck.model.Rules
+import com.lekrom.criticaldeck.ui.theme.FlawPrimary
+import com.lekrom.criticaldeck.ui.theme.SuccessPrimary
 
 val gson = Gson()
 
@@ -22,4 +25,7 @@ else "CriticalSuccessDeck.json"
 
 fun String?.getRules(): String = if (this == "Falha Crítica") "CriticalFlawRules.json"
 else "CriticalSuccessRules.json"
+
+fun String.getDeckColor(): Color = if (this == "Falha Crítica") FlawPrimary
+else SuccessPrimary
 

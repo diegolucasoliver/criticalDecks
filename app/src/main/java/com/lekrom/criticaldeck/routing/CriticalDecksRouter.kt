@@ -64,7 +64,11 @@ fun Navigation(assetManager: AssetManager) {
             )
         ) { entry ->
             val rules = entry.arguments?.getString("rules").getRules()
-            RulesScreen(navController, rules = assetManager.readAssetsFile(rules).rulesFromJson())
+            RulesScreen(
+                navController,
+                rules= assetManager.readAssetsFile(rules).rulesFromJson(),
+                rules == "CriticalFlawRules.json"
+            )
         }
     }
 }

@@ -16,7 +16,7 @@ import androidx.compose.ui.window.DialogProperties
 import com.lekrom.criticaldeck.model.Card
 
 @Composable
-fun CardDialog(card: Card, onDismissRequest: () -> Unit) {
+fun CardDialog(card: Card, backgroundColor: Color, onDismissRequest: () -> Unit) {
     val shape = RoundedCornerShape(corner = CornerSize(12.dp))
     Dialog(
         onDismissRequest = { onDismissRequest() },
@@ -35,7 +35,7 @@ fun CardDialog(card: Card, onDismissRequest: () -> Unit) {
                     shape = shape
                 )
         ) {
-            DeckCard(card = card)
+            DeckCard(card = card, backGroundColor = backgroundColor)
         }
     }
 }

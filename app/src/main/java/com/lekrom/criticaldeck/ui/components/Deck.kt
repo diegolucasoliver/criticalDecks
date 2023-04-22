@@ -18,11 +18,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.lekrom.criticaldeck.ui.theme.CardBackground
+import com.lekrom.criticaldeck.ui.theme.FlawPrimary
 import com.lekrom.criticaldeck.ui.theme.deckTitle
 
 @Composable
-fun Deck(title: String, action: () -> Unit) {
+fun Deck(title: String, backgroundColor: Color, action: () -> Unit) {
     val shape = RoundedCornerShape(corner = CornerSize(12.dp))
     Box(
         modifier = Modifier
@@ -33,7 +33,7 @@ fun Deck(title: String, action: () -> Unit) {
                 color = Color.Black,
                 shape = shape
             )
-            .background(color = CardBackground)
+            .background(color = backgroundColor)
             .fillMaxWidth()
             .clickable { action() }
     ) {
@@ -53,5 +53,5 @@ fun Deck(title: String, action: () -> Unit) {
 @Preview
 @Composable
 fun DeckPreview() {
-    Deck("Magia") {}
+    Deck("Magia", FlawPrimary) {}
 }

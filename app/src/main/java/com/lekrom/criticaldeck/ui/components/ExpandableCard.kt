@@ -32,7 +32,7 @@ import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.lekrom.criticaldeck.ui.theme.CardBackground
+import com.lekrom.criticaldeck.ui.theme.FlawPrimary
 import com.lekrom.criticaldeck.ui.theme.body
 import com.lekrom.criticaldeck.ui.theme.boldBody
 import com.lekrom.criticaldeck.ui.theme.cardTitle
@@ -41,6 +41,7 @@ import com.lekrom.criticaldeck.ui.theme.cardTitle
 @Composable
 fun ExpandableCard(
     title: String,
+    backgroundColor: Color,
     content: String? = null,
     listContent: List<String>? = null
 ) {
@@ -54,7 +55,7 @@ fun ExpandableCard(
         shape = shape,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(bottom = 16.dp)
+            .padding(top = 16.dp)
             .animateContentSize(
                 animationSpec = tween(
                     durationMillis = 300,
@@ -72,7 +73,7 @@ fun ExpandableCard(
     ) {
         Column(
             modifier = Modifier
-                .background(CardBackground)
+                .background(backgroundColor)
                 .fillMaxWidth()
                 .padding(16.dp)
         ) {
@@ -129,5 +130,5 @@ fun ExpandableCard(
 @Composable
 @Preview
 fun ExpandableCardPreview() {
-    ExpandableCard(title = "Teste")
+    ExpandableCard(title = "Teste", FlawPrimary)
 }
